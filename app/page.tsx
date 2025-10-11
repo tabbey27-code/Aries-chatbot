@@ -47,9 +47,14 @@ export default function Home() {
         return;
       }
 
+      // Use custom system prompt from config
+      const systemPrompt = CONFIG.SYSTEM_PROMPT
+        .replace('{AI_NAME}', AI_NAME)
+        .replace('{AI_DESCRIPTION}', AI_DESCRIPTION);
+      
       const systemMessage = {
         role: 'system' as const,
-        content: `You are ${AI_NAME}, ${AI_DESCRIPTION}. You are helpful, intelligent, and friendly. Always be engaging and provide valuable responses.`
+        content: systemPrompt
       };
 
       const response = await fetch('https://api.aries.website/v1/chat/completions', {

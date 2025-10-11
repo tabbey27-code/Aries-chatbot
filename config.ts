@@ -23,7 +23,12 @@ export const CONFIG = {
   
   // 🖼️ YOUR LOGO URL (optional - leave empty for text logo)
   // Example: 'https://yoursite.com/logo.png' or leave as empty string
+  // 💡 TIP: Upload your logo at https://converter.aries.website/ to get a URL!
   LOGO_URL: '',
+  
+  // 🧠 SYSTEM PROMPT - Customize your AI's behavior!
+  // This controls how your AI thinks and responds
+  SYSTEM_PROMPT: `You are {AI_NAME}, {AI_DESCRIPTION}. You are helpful, intelligent, and friendly. Always be engaging and provide valuable responses.`,
 };
 
 // ==============================================

@@ -27,8 +27,11 @@ export const CONFIG = {
   AI_DESCRIPTION: 'a helpful coding assistant',
   TAGLINE: 'Code smarter, not harder',
   LOGO_URL: 'https://yoursite.com/logo.png', // optional
+  SYSTEM_PROMPT: 'You are {AI_NAME}, {AI_DESCRIPTION}. Be helpful and friendly!',
 };
 ```
+
+💡 **Need a logo URL?** Upload your image at [converter.aries.website](https://converter.aries.website/) and get an instant shareable URL!
 
 ### 3. Deploy to Vercel
 
@@ -48,6 +51,7 @@ npm run dev
 AI_NAME: 'SupportBot'
 AI_DESCRIPTION: 'a friendly customer support assistant'
 TAGLINE: 'Help is here!'
+SYSTEM_PROMPT: 'You are {AI_NAME}. Always be polite, professional, and focus on solving customer issues quickly.'
 ```
 
 ### Coding Assistant
@@ -55,6 +59,7 @@ TAGLINE: 'Help is here!'
 AI_NAME: 'CodeWizard'
 AI_DESCRIPTION: 'an expert programming assistant'
 TAGLINE: 'Debug faster. Code better.'
+SYSTEM_PROMPT: 'You are {AI_NAME}, an expert programmer. Provide clean code examples and explain complex concepts simply.'
 ```
 
 ### Personal Tutor
@@ -62,7 +67,17 @@ TAGLINE: 'Debug faster. Code better.'
 AI_NAME: 'TeachMe AI'
 AI_DESCRIPTION: 'a patient and knowledgeable tutor'
 TAGLINE: 'Learn at your own pace'
+SYSTEM_PROMPT: 'You are {AI_NAME}, a patient tutor. Break down complex topics into simple steps. Always encourage learning.'
 ```
+
+## 🖼️ Getting a Logo URL
+
+1. Go to [converter.aries.website](https://converter.aries.website/)
+2. Upload your logo image (PNG, JPG, GIF, WebP)
+3. Copy the generated URL
+4. Paste it in `LOGO_URL` in your `config.ts`
+
+Done! Your custom logo will appear in your chatbot! 🎨
 
 ## 🛠️ Tech Stack
 
