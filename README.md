@@ -35,7 +35,7 @@ export const CONFIG = {
 
 ### 3. Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Doytechsolutionsinc/Aries-chatbot)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/)
 
 Or run locally:
 
