@@ -73,7 +73,7 @@ SYSTEM_PROMPT: 'You are {AI_NAME}, a patient tutor. Break down complex topics in
 ## 🖼️ Getting a Logo URL
 
 1. Go to [converter.aries.website](https://converter.aries.website/)
-2. Upload your logo image (PNG, JPG, GIF, WebP)
+2. Upload your logo image (PNG, JPG, GIF, WebP)(under 10 mb)
 3. Copy the generated URL
 4. Paste it in `LOGO_URL` in your `config.ts`
 
