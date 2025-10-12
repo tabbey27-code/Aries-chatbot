@@ -97,5 +97,14 @@ MIT License - Feel free to use for personal or commercial projects!
 - **Email:** doytechsolutionsinc@gmail.com
 
 ---
+## 🌐 Connect & Explore
+
+[![Chat on WhatsApp](https://img.shields.io/badge/Chat_on_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/14314522144)
+
+[![Join WhatsApp Channel](https://img.shields.io/badge/Join_WhatsApp_Channel-128C7E?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb05NOOLNSZzhqWQbG1Z)
+
+[![View More Projects](https://img.shields.io/badge/View_More_Projects-000000?style=for-the-badge&logo=github&logoColor=white)](https://doy.aries.website/#projects)
+
+---
 
 Made with ❤️ by [Doy Tech Solutions Inc.](https://aries.website)
