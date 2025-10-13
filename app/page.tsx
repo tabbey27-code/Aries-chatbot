@@ -12,6 +12,8 @@ const AI_NAME = CONFIG.AI_NAME;
 const AI_DESCRIPTION = CONFIG.AI_DESCRIPTION;
 const TAGLINE = CONFIG.TAGLINE;
 const LOGO_URL = CONFIG.LOGO_URL;
+const ONWER_NAME =CONFIG.ONWER_NAME
+
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -171,5 +173,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-  );
+    <footer> ©️ 2025 {ONWER_NAME}. Made <a href="https://github.com/Doytechsolutionsinc/Aries-chatbot">Aries Opensource></a></footer>
+    );
 }
