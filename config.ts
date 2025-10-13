@@ -16,7 +16,7 @@ export const CONFIG = {
   AI_NAME: 'Aries AI',
 
   //Your name 
-  ONWER_NAME: `Doy Tech Inc`
+  ONWER_NAME: `Doy Tech Inc`,
   
   // 📝 YOUR AI'S PERSONALITY (used in system prompt)
   AI_DESCRIPTION: 'a helpful, intelligent, and friendly AI assistant',
