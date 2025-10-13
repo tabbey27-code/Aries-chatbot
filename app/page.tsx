@@ -12,8 +12,7 @@ const AI_NAME = CONFIG.AI_NAME;
 const AI_DESCRIPTION = CONFIG.AI_DESCRIPTION;
 const TAGLINE = CONFIG.TAGLINE;
 const LOGO_URL = CONFIG.LOGO_URL;
-const ONWER_NAME =CONFIG.ONWER_NAME
-
+const ONWER_NAME = CONFIG.ONWER_NAME;
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -38,7 +37,6 @@ export default function Home() {
     setLoading(true);
 
     try {
-      // Check if API key is configured
       const apiKey = CONFIG.ARIES_API_KEY;
       if (!apiKey || apiKey === 'YOUR_ARIES_API_KEY_HERE') {
         setMessages(prev => [...prev, {
@@ -49,11 +47,10 @@ export default function Home() {
         return;
       }
 
-      // Use custom system prompt from config
       const systemPrompt = CONFIG.SYSTEM_PROMPT
         .replace('{AI_NAME}', AI_NAME)
         .replace('{AI_DESCRIPTION}', AI_DESCRIPTION);
-      
+
       const systemMessage = {
         role: 'system' as const,
         content: systemPrompt
@@ -172,7 +169,16 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="border-t border-[#1a1a1a] bg-[#0a0a0a] py-3 text-center text-gray-500 text-sm">
+        <p>
+          © {new Date().getFullYear()} {AI_NAME} · Built by {ONWER_NAME} · 
+          <a href="https://github.com/Doytechsolutionsinc/Aries-chatbot" target="_blank" className="underline ml-1 hover:text-white">
+            Built with aries
+          </a>
+        </p>
+      </footer>
     </div>
-    <footer> ©️ 2025 {ONWER_NAME}. Made <a href="https://github.com/Doytechsolutionsinc/Aries-chatbot">Aries Opensource></a></footer>
-    );
-}
+  );
+  }
