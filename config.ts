@@ -13,10 +13,10 @@ export const CONFIG = {
   ARIES_API_KEY: 'YOUR_ARIES_API_KEY_HERE',
   
   // 🤖 YOUR AI'S NAME (e.g., "MyBot", "Sarah AI", "CodeHelper")
-  AI_NAME: 'Aries AI',
+  AI_NAME: 'Erin',
 
   //Your name 
-  ONWER_NAME: `Doy Tech Inc`,
+  ONWER_NAME: `Thelms`,
   
   // 📝 YOUR AI'S PERSONALITY (used in system prompt)
   AI_DESCRIPTION: 'a helpful, intelligent, and friendly AI assistant',
