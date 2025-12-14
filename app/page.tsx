@@ -63,7 +63,7 @@ export default function Home() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          model: 'Aries 1.3 code',
+          model: 'Aries 1.3',
           messages: [systemMessage, ...messages, userMessage],
         }),
       });
@@ -108,7 +108,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto space-y-6">
           {messages.length === 0 && (
             <div className="text-center text-gray-500 mt-20">
-              <h2 className="text-2xl font-bold mb-2">Start a conversation with {AI_NAME}</h2>
+              <h2 className="text-2xl font-bold mb-2">Ask {AI_NAME} any question</h2>
               <p className="text-sm">{AI_DESCRIPTION}</p>
             </div>
           )}
@@ -175,7 +175,7 @@ export default function Home() {
         <p>
           © {new Date().getFullYear()} {AI_NAME} · Built by {ONWER_NAME} · 
           <a href="https://github.com/Doytechsolutionsinc/Aries-chatbot" target="_blank" className="underline ml-1 hover:text-white">
-            Built with aries
+            Built with heart
           </a>
         </p>
       </footer>
